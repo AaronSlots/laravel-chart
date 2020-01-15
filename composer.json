@@ -16,7 +16,6 @@
         "chart"
     ],
     "require": {
-        "twbs/bootstrap": "^4.4"
     },
     "autoload": {
         "psr-4": {
