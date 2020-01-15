@@ -24,8 +24,5 @@ class LaravelChartServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViewsFrom(__DIR__.'/resources/views', 'ASSoftware/Laravel');
-        $this->publishes([
-            __DIR__.'/resources/templates' => resource_path('views/cms'),
-        ]);
     }
 }
