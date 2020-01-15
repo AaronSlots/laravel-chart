@@ -1,0 +1,35 @@
+{
+    "name": "as-software/laravel-chart",
+    "description": "An Laravel Extension for increasing your coding speed.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AaronSlots",
+            "email": "aaronslots@gmail.com"
+        }
+    ],
+    "keywords": [
+        "framework",
+        "laravel",
+        "simple",
+        "chart"
+    ],
+    "require": {
+        "twbs/bootstrap": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ASSoftware\\Laravel\\": "src/"
+        },
+        "classmap": ["src"]
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"ASSoftware\\Laravel\\LaravelChartServiceProvider"
+            ]
+		}
+    },
+    "minimum-stability": "dev"
+}
