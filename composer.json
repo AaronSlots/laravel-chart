@@ -16,6 +16,7 @@
         "chart"
     ],
     "require": {
+        "as-software/laravel": "dev-master"
     },
     "autoload": {
         "psr-4": {

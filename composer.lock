@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c66152456a73b0d29e0b3457a8064432",
+    "packages": [
+        {
+            "name": "as-software/laravel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AaronSlots/laravel.git",
+                "reference": "2cc165f22bdc03e52a3e20788bfa279d8d83d7ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AaronSlots/laravel/zipball/2cc165f22bdc03e52a3e20788bfa279d8d83d7ef",
+                "reference": "2cc165f22bdc03e52a3e20788bfa279d8d83d7ef",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ASSoftware\\Laravel\\LaravelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ASSoftware\\Laravel\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AaronSlots",
+                    "email": "aaronslots@gmail.com"
+                }
+            ],
+            "description": "An Laravel Extension for increasing your coding speed.",
+            "keywords": [
+                "Simple",
+                "framework",
+                "laravel"
+            ],
+            "time": "2020-01-15T13:44:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "as-software/laravel": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
